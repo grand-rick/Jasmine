@@ -89,7 +89,7 @@ In the `jasmine.json` add the following configurations for a basic Jasmine confi
 
 In the `tsconfig.json` file, add `"spec"` to the list of folders that we want to exclude.
 ```json
-  "exclude": ["node_modules", "./dist", "spec"]
+  "exclude": ["node_modules", "./build", "spec"]
   ```
 
   ## **Write a Basic Test**
